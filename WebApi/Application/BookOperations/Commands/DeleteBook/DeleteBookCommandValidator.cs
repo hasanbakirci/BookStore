@@ -1,6 +1,6 @@
 using FluentValidation;
 
-namespace WebApi.BookOperations.DeleteBook
+namespace WebApi.Application.BookOperations.DeleteBook
 {
     public class DeleteBookCommandValidator : AbstractValidator<DeleteBookCommand>
     {

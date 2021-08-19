@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using WebApi.DBOperations;
 
-namespace WebApi.BookOperations.UpdateBook
+namespace WebApi.Application.BookOperations.UpdateBook
 {
     public class UpdateBookCommand
     {
@@ -20,6 +20,7 @@ namespace WebApi.BookOperations.UpdateBook
                 throw new InvalidOperationException("Güncellenecek kitap bulunamadı");
             book.GenreId = Model.GenreId != default ? Model.GenreId : book.GenreId;
             book.Title = Model.Title != default ? Model.Title : book.Title;
+            _context.SaveChanges();
         }
         public class UpdateBookModel{
             public string Title { get; set; }
