@@ -1,4 +1,5 @@
 using FluentValidation;
+using WebApi.Application.BookOperations.Commands.CreateBook;
 
 namespace WebApi.Application.BookOperations.CreateBook
 {

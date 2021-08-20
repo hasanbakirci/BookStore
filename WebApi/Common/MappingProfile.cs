@@ -2,7 +2,7 @@ using AutoMapper;
 using WebApi.Application.BookOperations.GetBooks;
 using WebApi.Application.GenreOperations.Queries.GetGenreDetail;
 using WebApi.Application.GenreOperations.Queries.GetGenres;
-using static WebApi.Application.BookOperations.CreateBook.CreateBookCommand;
+using static WebApi.Application.BookOperations.Commands.CreateBook.CreateBookCommand;
 using static WebApi.Application.BookOperations.GetBookDetail.GetBookDetailQuery;
 
 namespace WebApi.Common

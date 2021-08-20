@@ -3,7 +3,7 @@ using System.Linq;
 using AutoMapper;
 using WebApi.DBOperations;
 
-namespace WebApi.Application.BookOperations.CreateBook
+namespace WebApi.Application.BookOperations.Commands.CreateBook
 {
     public class CreateBookCommand
     {
